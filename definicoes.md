@@ -133,4 +133,4 @@ vamo que vamo
 
 Saida:
 
-![ScreenShot](https://raw.github.com/LeonardoDantass/imagem/blob/master/exemplolexico.jpg)
+![ScreenShot](https://raw.githubusercontent.com/LeonardoDantass/imagem/master/exemplolexico.jpg)

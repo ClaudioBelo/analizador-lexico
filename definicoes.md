@@ -1,9 +1,37 @@
 
 
 
-
-
-
+## Tabela de tokens:
+| Expressões            | Token              |
+|-----------------------|--------------------|
+| textao("grandao")     | t_string           |
+| vamo que vamo         | t_begin            |
+| diga tchau lilica     | t_end              |
+| fala um a pra tu ve   | t_print            |
+| conta pro tio         | t_scan             |
+| biridin               | t_int              |
+| mai love              | t_float            |
+| que menino?           | t_if               |
+| isso menino           | t-elseif           |
+| esse menino e coisado | t_else             |
+| procurando a graca    | t_while            |
+| achei vacilo          | t_switch           |
+| achei graca tambem    | t_deafault         |
+| achei                 | t_case             |
+| tururu                | t_break            |
+| prossiga              | t_continue         |
+| roda roda jequiti     | t_for              |
+| var1,var2,x           | t_id               |
+| ## ##                 | t_comment          |
+| operadores            | t_operators        |
+| :=                    | t_assignment       |
+| 0-9                   | t_number           |
+| ;                     | t_end_command      |
+| (                     | t_start_expression |
+| )                     | t_end_expression   |
+| {                     | t_start_block      |
+| }                     | t_end_block        |
+| :                     | t_start_case       |
 
 
 Inicio do codigo:
@@ -22,6 +50,9 @@ Diga tchau lilica
 Printar na tela:
 >fala um a pra tu ve ve("a a")
 
+for:
+>
+
 If:
 > que menino?
 
@@ -33,6 +64,9 @@ Else:
 
 While:
 >procurando a graca
+
+Continue:
+>prossiga
 
 Switch:
 >achei vacilo

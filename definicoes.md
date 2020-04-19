@@ -12,7 +12,7 @@
 | biridin               | t_int              |
 | mai love              | t_float            |
 | que menino?           | t_if               |
-| isso menino           | t-elseif           |
+| isso menino           | t_elseif           |
 | esse menino e coisado | t_else             |
 | procurando a graca    | t_while            |
 | achei vacilo          | t_switch           |
@@ -98,7 +98,7 @@ Operadores:
 >" / " : Operador de divisão
 
 Identificadores
->x,var1,var2
+>x,var1,var2, ...
 
 Simbologia:
 >“ ( “ : inicia parâmetro	

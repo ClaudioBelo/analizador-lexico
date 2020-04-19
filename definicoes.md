@@ -20,7 +20,7 @@ Diga tchau lilica
 ```
 
 Printar na tela:
->fala um a para voce ve("a a")
+>fala um a pra tu ve ve("a a")
 
 If:
 > que menino?

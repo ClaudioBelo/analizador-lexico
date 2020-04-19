@@ -101,7 +101,7 @@ Tipos de Dados:
 
 Comentarios:
 ```
-> ## insira seu comentario aqui ##
+ ## insira seu comentario aqui ##
 ```
 
 Operadores:

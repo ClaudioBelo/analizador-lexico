@@ -1,5 +1,5 @@
-# Analizador lexico - ?????
-Analizador realizado como forma estudantil para a disciplina de compiladores.
+# Analisador lexico - ?????
+Analisador realizado como forma estudantil para a disciplina de compiladores.
 
 Informações referentes a gramatica definida,[DEFINIÇÕES](https://github.com/ClaudioBelo/analizador-lexico/blob/master/definicoes.md)
 

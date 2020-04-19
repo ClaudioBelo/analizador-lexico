@@ -117,3 +117,21 @@ Números:
 >0-9
 
 
+## Exemplo do analisador léxico
+
+Codigo:
+```
+vamo que vamo
+	mai love x1;
+	conta pro tio(x1);
+
+	mai love resultado := x1 * 2;
+	fala um a pra tu ve("O dobro do numero é ");
+	fala um a pra tu ve(x1);
+
+```
+
+Saida:
+
+
+

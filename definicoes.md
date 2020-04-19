@@ -25,6 +25,7 @@
 | ## ##                 | t_comment          |
 | :=                    | t_assignment       |
 | 0-9                   | t_number           |
+| :                     | t_start_case       |
 | ;                     | t_end_command      |
 | (                     | t_start_expression |
 | )                     | t_end_expression   |
@@ -53,12 +54,15 @@ Encerramento do código:
 Exemplo:
 ```
 vamo que vamo
-/*  insira seu código aqui */;
+##  insira seu código aqui ##;
 Diga tchau lilica
 ```
 
 Printar na tela:
 >fala um a pra tu ve ve("a a")
+
+Ler:
+>conta pro tio
 
 for:
 >roda roda jequeti
@@ -96,7 +100,7 @@ Tipos de Dados:
 >mai love(float)
 
 Comentarios:
-> /* insira seu comentario aqui */
+> ## insira seu comentario aqui ##
 
 Operadores:
 >" + " : Operador de soma
@@ -121,7 +125,31 @@ Simbologia:
 
 >“ ; ” : fim da linha
 
->“ : ” : pontuação
+>“ : ” : dois pontos
+
+>“ + ” : soma
+
+>“ - ” : subtração
+
+>“ * ” : multiplicação
+
+>“ / ” : divisão
+
+>“ ! ” : negação
+
+>“ == ” : not equal
+
+>“ != ” : less
+
+>“ < ” : maior que
+
+>“ > ” : menor que
+
+>“ <= ” : mairo igual
+
+>“ >= ” : menor igual
+
+>“ , ” : virgula
 
 Números:
 >0-9

@@ -21,7 +21,7 @@
 | tururu                | t_break            |
 | prossiga              | t_continue         |
 | roda roda jequiti     | t_for              |
-| var1,var2,x           | t_id               |
+| identificadores       | t_id               |
 | ## ##                 | t_comment          |
 | operadores            | t_operators        |
 | :=                    | t_assignment       |
@@ -51,7 +51,7 @@ Printar na tela:
 >fala um a pra tu ve ve("a a")
 
 for:
->
+>roda roda jequeti
 
 If:
 > que menino?
@@ -96,6 +96,9 @@ Operadores:
 >" * " : Operador de multiplicação
 
 >" / " : Operador de divisão
+
+Identificadores
+>x,var1,var2
 
 Simbologia:
 >“ ( “ : inicia parâmetro	

@@ -23,7 +23,6 @@
 | roda roda jequiti     | t_for              |
 | identificadores       | t_id               |
 | ## ##                 | t_comment          |
-| operadores            | t_operators        |
 | :=                    | t_assignment       |
 | 0-9                   | t_number           |
 | ;                     | t_end_command      |
@@ -31,8 +30,19 @@
 | )                     | t_end_expression   |
 | {                     | t_start_block      |
 | }                     | t_end_block        |
-| :                     | t_start_case       |
-
+| +                     | t_plus             |
+| -                     | t_minus            |
+| *                     | t_multiply         |
+| /                     | t_share            |
+| !                     | t_not              |
+| ||                    | t_or               |
+| ==                    | t_not_equal        |
+| !=                    | t_less             |
+| <                     | t_greater          |
+| >                     | t_greater          |
+| <=                    | t_less_equal       |
+| >=                    | t_greater_equal    |
+| ,                     | t_comma            |
 
 Inicio do codigo:
 >vamo que vamo

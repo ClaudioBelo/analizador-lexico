@@ -1,6 +1,4 @@
 
-
-
 ## Tabela de tokens:
 | Expressões            | Token              |
 |-----------------------|--------------------|
@@ -37,13 +35,14 @@
 | /                     | t_share            |
 | !                     | t_not              |
 | ||                    | t_or               |
-| ==                    | t_not_equal        |
-| !=                    | t_less             |
-| <                     | t_greater          |
+| ==                    | t_equal            |
+| !=                    | t_not_equal        |
+| <                     | t_less             |
 | >                     | t_greater          |
 | <=                    | t_less_equal       |
 | >=                    | t_greater_equal    |
 | ,                     | t_comma            |
+
 
 Inicio do codigo:
 >vamo que vamo
@@ -104,15 +103,6 @@ Comentarios:
  ## insira seu comentario aqui ##
 ```
 
-Operadores:
->" + " : Operador de soma
-
->" - " : Operador de subtração
-
->" * " : Operador de multiplicação
-
->" / " : Operador de divisão
-
 Identificadores
 >x,var1,var2, ...
 
@@ -139,22 +129,22 @@ Simbologia:
 
 >“ ! ” : negação
 
->“ == ” : not equal
+>“ == ” : igual
 
->“ != ” : less
+>“ != ” : difirente
 
->“ < ” : maior que
+>“ < ” : menor que
 
->“ > ” : menor que
+>“ > ” : maior que
 
->“ <= ” : mairo igual
+>“ <= ” : menor igual
 
->“ >= ” : menor igual
+>“ >= ” : maior igual
 
 >“ , ” : virgula
 
 Números:
->0-9
+1, 1.5, 20
 
 
 ## Exemplo do analisador léxico

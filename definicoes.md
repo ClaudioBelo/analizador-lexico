@@ -64,7 +64,7 @@ Ler:
 >conta pro tio
 
 for:
->roda roda jequeti
+>roda roda jequiti
 
 If:
 > que menino?
